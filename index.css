@@ -41,3 +41,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.plan_visit{
+    background:#FF764E;
+}
+
+.about_park {
+    background: #5ED3EB;
+}
+
+.get_involved {
+    background: #FFCD69;
+}
