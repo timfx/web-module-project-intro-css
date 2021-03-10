@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@100&display=swap');
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,6 +46,14 @@ table {
 	border-spacing: 0;
 }
 
+nav {
+    font-family: "Roboto Mono";
+}
+
+.nav_links a{
+    color: white;
+}
+
 .plan_visit{
     background:#FF764E;
 }
@@ -52,4 +64,17 @@ table {
 
 .get_involved {
     background: #FFCD69;
+}
+
+.titles {
+    font-family: 'Chelsea Market';
+}
+
+#description {
+    font-family: "Roboto Mono";
+    /* color: white; */
+}
+
+#additional_info {
+    font-family: "Chelsea Market";
 }
