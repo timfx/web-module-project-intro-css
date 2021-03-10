@@ -50,6 +50,10 @@ nav {
     font-family: "Roboto Mono";
 }
 
+footer{
+    background:#F9E7DC;
+}
+
 .nav_links a{
     color: white;
 }
@@ -72,7 +76,8 @@ nav {
 
 #description {
     font-family: "Roboto Mono";
-    /* color: white; */
+    color: white;
+    background: #DDB9A3;
 }
 
 #additional_info {
