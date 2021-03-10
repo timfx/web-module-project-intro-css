@@ -17,7 +17,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 1px solid gray; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -45,17 +45,98 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#container {
+    /* border: 10px solid purple; */
+    padding: 2%;
+}
 
 nav {
     font-family: "Roboto Mono";
-}
-
-footer{
-    background:#F9E7DC;
+    text-align: center;
+    padding: 4% 0% 4% 0%;
+    font-size: 2rem;
+    max-width: 100%;
 }
 
 .nav_links a{
     color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+header div {
+    width: 50%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 4rem;
+    padding:25px;
+}
+h2, h3 {
+    font-size:2rem;
+    padding: 25px;
+}
+
+article {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2% 0% 2% 0%;
+}
+
+section {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section img {
+    width: 100px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.logo{
+    width: 200px;
+    height:200px;
+}
+
+.logo img {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+footer{
+    background:#F9E7DC;
+    padding-bottom: 15px;
+}
+
+footer img {
+    height:250px;
+    width: 100%;
+}
+
+.important_info {
+    font-weight: bold;
 }
 
 .plan_visit{
@@ -64,6 +145,8 @@ footer{
 
 .about_park {
     background: #5ED3EB;
+    margin-left: 8.25%;
+    margin-right: 8.25%;
 }
 
 .get_involved {
@@ -72,12 +155,14 @@ footer{
 
 .titles {
     font-family: 'Chelsea Market';
+    display: inline-block;
 }
 
 #description {
     font-family: "Roboto Mono";
     color: white;
     background: #DDB9A3;
+    padding: 10px;
 }
 
 #additional_info {
